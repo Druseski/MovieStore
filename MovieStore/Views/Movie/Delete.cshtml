@@ -1,0 +1,127 @@
+﻿@model MovieStore.Entities.Movie
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="row">
+    <div class="col-12 text-center">
+        <h1>
+            DELETE
+        </h1>
+        <p>
+            Are You Sure you whant to delete this
+        </p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <table>
+        <tr>
+            <td> @Html.DisplayNameFor(Model => Model.MovieTitle)</td>
+            <td>@Html.DisplayFor(Model => Model.MovieTitle)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Discription)</td>
+            <td>@Html.DisplayFor(Model => Model.Discription)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.DirectorName)</td>
+            <td>@Html.DisplayFor(Model => Model.DirectorName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.DirectorId)</td>
+            <td>@Html.DisplayFor(Model => Model.DirectorId)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.MovieDuration)</td>
+            <td>@Html.DisplayFor(Model => Model.MovieDuration)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.GenreName)</td>
+            <td>@Html.DisplayFor(Model => Model.GenreName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.GenreId)</td>
+            <td>@Html.DisplayFor(Model => Model.GenreId)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.ReleaseDate)</td>
+            <td>@Html.DisplayFor(Model => Model.ReleaseDate)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.WriterName)</td>
+            <td>@Html.DisplayFor(Model => Model.WriterName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.WriterId)</td>
+            <td>@Html.DisplayFor(Model => Model.WriterId)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.ActorName)</td>
+            <td>@Html.DisplayFor(Model => Model.ActorName)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.ActorId)</td>
+            <td>@Html.DisplayFor(Model => Model.ActorId)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Production)</td>
+            <td>@Html.DisplayFor(Model => Model.Production)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Country)</td>
+            <td>@Html.DisplayFor(Model => Model.Country)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Rating)</td>
+            <td>@Html.DisplayFor(Model => Model.Rating)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.UserID)</td>
+            <td>@Html.DisplayFor(Model => Model.UserID)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.PhotoURL)</td>
+            <td>@Html.DisplayFor(Model => Model.PhotoURL)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.TrailerURL)</td>
+            <td>@Html.DisplayFor(Model => Model.TrailerURL)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.FilmingLocations)</td>
+            <td>@Html.DisplayFor(Model => Model.FilmingLocations)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Language)</td>
+            <td>@Html.DisplayFor(Model => Model.Language)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Budget)</td>
+            <td>@Html.DisplayFor(Model => Model.Budget)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Price)</td>
+            <td>@Html.DisplayFor(Model => Model.Price)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.Awards)</td>
+            <td>@Html.DisplayFor(Model => Model.Awards)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(Model => Model.DateAdded)</td>
+            <td>@Html.DisplayFor(Model => Model.DateAdded)</td>
+        </tr>
+    </table>
+</div>
+
+<div class="row mt-1">
+    <div class="col-12 text-left">
+        <button class="btn btn-danger text-left " type="button">DELETE</button>
+        <a asp-action="Index">
+            | Back to LIst
+        </a>
+    </div>
+</div>

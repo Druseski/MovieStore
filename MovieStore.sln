@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStore", "MovieStore\MovieStore.csproj", "{AF65167F-5746-4A8E-A737-6FCC9A79DDAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49127609-C5F5-460D-9448-946F09BFE47C} = {49127609-C5F5-460D-9448-946F09BFE47C}
+		{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB} = {AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3} = {CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}
+		{ECB077CA-958B-4AD0-9755-2B56155652AE} = {ECB077CA-958B-4AD0-9755-2B56155652AE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStore.Data", "MovieStore.Data\MovieStore.Data.csproj", "{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECB077CA-958B-4AD0-9755-2B56155652AE} = {ECB077CA-958B-4AD0-9755-2B56155652AE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStore.Entities", "MovieStore.Entities\MovieStore.Entities.csproj", "{ECB077CA-958B-4AD0-9755-2B56155652AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStore.Repositories", "MovieStore.Repositories\MovieStore.Repositories.csproj", "{49127609-C5F5-460D-9448-946F09BFE47C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3} = {CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}
+		{ECB077CA-958B-4AD0-9755-2B56155652AE} = {ECB077CA-958B-4AD0-9755-2B56155652AE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieStore.Services", "MovieStore.Services\MovieStore.Services.csproj", "{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49127609-C5F5-460D-9448-946F09BFE47C} = {49127609-C5F5-460D-9448-946F09BFE47C}
+		{ECB077CA-958B-4AD0-9755-2B56155652AE} = {ECB077CA-958B-4AD0-9755-2B56155652AE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF65167F-5746-4A8E-A737-6FCC9A79DDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF65167F-5746-4A8E-A737-6FCC9A79DDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF65167F-5746-4A8E-A737-6FCC9A79DDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF65167F-5746-4A8E-A737-6FCC9A79DDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8BF4C3-98D8-49C8-B9D6-37EBC5177CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB077CA-958B-4AD0-9755-2B56155652AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB077CA-958B-4AD0-9755-2B56155652AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB077CA-958B-4AD0-9755-2B56155652AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB077CA-958B-4AD0-9755-2B56155652AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49127609-C5F5-460D-9448-946F09BFE47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49127609-C5F5-460D-9448-946F09BFE47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49127609-C5F5-460D-9448-946F09BFE47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49127609-C5F5-460D-9448-946F09BFE47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6EC1A7-93AB-4723-8E1C-C703B9FDD5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44A6A785-B1F0-4920-BA21-62C476CFEA57}
+	EndGlobalSection
+EndGlobal

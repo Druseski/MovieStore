@@ -1,0 +1,12 @@
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\bin\Debug\netcoreapp3.1\MovieStore.Data.deps.json
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\bin\Debug\netcoreapp3.1\MovieStore.Data.dll
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\bin\Debug\netcoreapp3.1\MovieStore.Data.pdb
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\bin\Debug\netcoreapp3.1\MovieStore.Entities.dll
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\bin\Debug\netcoreapp3.1\MovieStore.Entities.pdb
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.csprojAssemblyReference.cache
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.AssemblyInfoInputs.cache
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.AssemblyInfo.cs
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.csproj.CoreCompileInputs.cache
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.csproj.CopyComplete
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.dll
+C:\Users\draga\source\repos\MovieStore\MovieStore.Data\obj\Debug\netcoreapp3.1\MovieStore.Data.pdb
